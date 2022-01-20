@@ -53,6 +53,9 @@ module.exports = {
     "comma-spacing": ["error", { "before": false, "after": true }],
     "func-call-spacing": ["error", "never"],
     "no-constant-condition": "warn",
-    "no-empty": "warn"
+    "no-empty": "warn",
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "@typescript-eslint/no-var-requires": ["off"],
+    "vue/v-on-event-hyphenation": ["off"]
   }
 };
